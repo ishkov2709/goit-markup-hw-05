@@ -281,6 +281,27 @@ img {
   display: flex;
 }
 
+.company-list .item {
+  position: relative;
+}
+
+.infobox .subtitle {
+  position: absolute;
+  margin: 0;
+  padding: 27px 0;
+  bottom: 0;
+  width: 100%;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}
+
 /* Команда */
 
 .section.team {
